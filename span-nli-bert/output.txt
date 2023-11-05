@@ -1,0 +1,147 @@
+==========================================
+SLURM_JOB_ID = 1011236
+SLURM_NODELIST = gnode021
+SLURM_JOB_GPUS = 0,1,2,3
+==========================================
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+/home2/druhan/miniconda3/lib/python3.11/site-packages/torch/cuda/__init__.py:138: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11060). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+11/02/2023 14:43:34 - WARNING - __main__ -   Process rank: -1, device: cpu, n_gpu: 4, distributed training: False, 16-bits training: False
+[INFO|configuration_utils.py:715] 2023-11-02 14:43:35,217 >> loading configuration file config.json from cache at /home2/druhan/.cache/huggingface/hub/models--bert-base-uncased/snapshots/1dbc166cf8765166998eff31ade2eb64c8a40076/config.json
+[INFO|configuration_utils.py:775] 2023-11-02 14:43:35,218 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.34.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|configuration_utils.py:715] 2023-11-02 14:43:35,455 >> loading configuration file config.json from cache at /home2/druhan/.cache/huggingface/hub/models--bert-base-uncased/snapshots/1dbc166cf8765166998eff31ade2eb64c8a40076/config.json
+[INFO|configuration_utils.py:775] 2023-11-02 14:43:35,457 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.34.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|tokenization_utils_base.py:2043] 2023-11-02 14:43:35,467 >> loading file vocab.txt from cache at /home2/druhan/.cache/huggingface/hub/models--bert-base-uncased/snapshots/1dbc166cf8765166998eff31ade2eb64c8a40076/vocab.txt
+[INFO|tokenization_utils_base.py:2043] 2023-11-02 14:43:35,467 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2043] 2023-11-02 14:43:35,467 >> loading file special_tokens_map.json from cache at None
+[INFO|tokenization_utils_base.py:2043] 2023-11-02 14:43:35,468 >> loading file tokenizer_config.json from cache at /home2/druhan/.cache/huggingface/hub/models--bert-base-uncased/snapshots/1dbc166cf8765166998eff31ade2eb64c8a40076/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2043] 2023-11-02 14:43:35,468 >> loading file tokenizer.json from cache at /home2/druhan/.cache/huggingface/hub/models--bert-base-uncased/snapshots/1dbc166cf8765166998eff31ade2eb64c8a40076/tokenizer.json
+[INFO|configuration_utils.py:715] 2023-11-02 14:43:35,469 >> loading configuration file config.json from cache at /home2/druhan/.cache/huggingface/hub/models--bert-base-uncased/snapshots/1dbc166cf8765166998eff31ade2eb64c8a40076/config.json
+[INFO|configuration_utils.py:775] 2023-11-02 14:43:35,470 >> Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.34.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+[INFO|tokenization_utils.py:493] 2023-11-02 14:43:35,514 >> Adding [UNK] to the vocabulary
+[INFO|tokenization_utils.py:493] 2023-11-02 14:43:35,514 >> Adding [SEP] to the vocabulary
+[INFO|tokenization_utils.py:493] 2023-11-02 14:43:35,514 >> Adding [PAD] to the vocabulary
+[INFO|tokenization_utils.py:493] 2023-11-02 14:43:35,514 >> Adding [CLS] to the vocabulary
+[INFO|tokenization_utils.py:493] 2023-11-02 14:43:35,514 >> Adding [MASK] to the vocabulary
+[INFO|tokenization_utils.py:493] 2023-11-02 14:43:35,562 >> Adding [PAD] to the vocabulary
+[INFO|tokenization_utils.py:493] 2023-11-02 14:43:35,562 >> Adding [UNK] to the vocabulary
+[INFO|tokenization_utils.py:493] 2023-11-02 14:43:35,562 >> Adding [CLS] to the vocabulary
+[INFO|tokenization_utils.py:493] 2023-11-02 14:43:35,562 >> Adding [SEP] to the vocabulary
+[INFO|tokenization_utils.py:493] 2023-11-02 14:43:35,562 >> Adding [MASK] to the vocabulary
+[INFO|modeling_utils.py:2993] 2023-11-02 14:43:35,800 >> loading weights file model.safetensors from cache at /home2/druhan/.cache/huggingface/hub/models--bert-base-uncased/snapshots/1dbc166cf8765166998eff31ade2eb64c8a40076/model.safetensors
+[INFO|modeling_utils.py:3765] 2023-11-02 14:43:41,160 >> Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForIdentificationClassification: ['cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias']
+- This IS expected if you are initializing BertForIdentificationClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForIdentificationClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[WARNING|modeling_utils.py:3777] 2023-11-02 14:43:41,161 >> Some weights of BertForIdentificationClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['class_outputs.bias', 'span_outputs.bias', 'class_outputs.weight', 'span_outputs.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+11/02/2023 14:43:41 - INFO - __main__ -   Training/evaluation parameters {'model_name_or_path': 'bert-base-uncased', 'train_file': './data/train.json', 'dev_file': './data/dev.json', 'config_name': None, 'tokenizer_name': None, 'cache_dir': None, 'max_seq_length': 512, 'doc_stride': 64, 'max_query_length': 256, 'do_lower_case': True, 'per_gpu_train_batch_size': 8, 'per_gpu_eval_batch_size': 8, 'learning_rate': 3e-05, 'gradient_accumulation_steps': 1, 'weight_decay': 0.0, 'adam_epsilon': 1e-08, 'max_grad_norm': 1.0, 'num_epochs': 5.0, 'max_steps': None, 'warmup_steps': 200, 'lang_id': None, 'valid_steps': 10000, 'early_stopping': True, 'save_steps': -1, 'seed': 42, 'fp16': False, 'fp16_opt_level': 'O1', 'no_cuda': False, 'overwrite_cache': False, 'weight_class_probs_by_span_probs': True, 'class_loss_weight': 0.1, 'task': 'identification_classification', 'symbol_based_hypothesis': False}
+11/02/2023 14:43:41 - INFO - contract_nli.dataset.dataset -   Loading examples from cached file ./cached_examples_train
+[INFO|tokenization_utils_base.py:952] 2023-11-02 14:44:00,323 >> Assigning ['[SPAN]'] to the additional_special_tokens key of the tokenizer
+[INFO|tokenization_utils.py:493] 2023-11-02 14:44:00,331 >> Adding [SPAN] to the vocabulary
+11/02/2023 14:44:00 - WARNING - __main__ -   SPAN_TOKEN "[SPAN]" was added as "30522". You can safely ignore this warning if you are training a model from pretrained LMs.
+[INFO|modeling_utils.py:1617] 2023-11-02 14:44:00,338 >> You are resizing the embedding layer without providing a `pad_to_multiple_of` parameter. This means that the new embedding dimension will be 30523. This might induce some performance reduction as *Tensor Cores* will not be available. For more details about this, or help on choosing the correct value for resizing, refer to this guide: https://docs.nvidia.com/deeplearning/performance/dl-performance-matrix-multiplication/index.html#requirements-tc
+11/02/2023 14:44:00 - INFO - contract_nli.dataset.dataset -   Loading features from cached file ./cached_features_train_identification_classification_bert-base-uncased_512_256_64
+11/02/2023 14:44:43 - INFO - contract_nli.dataset.dataset -   Loading examples from cached file ./cached_examples_dev
+11/02/2023 14:44:46 - INFO - contract_nli.dataset.dataset -   Loading features from cached file ./cached_features_dev_identification_classification_bert-base-uncased_512_256_64
+/home2/druhan/miniconda3/lib/python3.11/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+11/02/2023 14:44:54 - INFO - contract_nli.trainer -   ***** Trainer *****
+11/02/2023 14:44:54 - INFO - contract_nli.trainer -     Num examples = 43877
+11/02/2023 14:44:54 - INFO - contract_nli.trainer -     Instantaneous batch size per GPU = 8
+11/02/2023 14:44:54 - INFO - contract_nli.trainer -     Effective batch size (w. parallel, distributed & accumulation) = 8
+11/02/2023 14:44:54 - INFO - contract_nli.trainer -     Gradient Accumulation steps = 1
+11/02/2023 14:44:54 - INFO - contract_nli.trainer -    Optimization steps = 6860.0 (5.0 epochs)
+Train (epoch 1):   0%|          | 0/6860 [00:00<?, ?it/s]Train (epoch 1):   0%|          | 0/6860 [00:00<?, ?it/s]Train (epoch 1):   0%|          | 1/6860 [00:25<48:29:58, 25.46s/it]Train (epoch 1):   0%|          | 2/6860 [00:50<48:33:40, 25.49s/it]Train (epoch 1):   0%|          | 3/6860 [01:15<48:08:24, 25.27s/it]Train (epoch 1):   0%|          | 4/6860 [01:41<47:57:53, 25.19s/it]Train (epoch 1):   0%|          | 5/6860 [02:05<47:47:46, 25.10s/it]Train (epoch 1):   0%|          | 6/6860 [02:30<47:26:18, 24.92s/it]Train (epoch 1):   0%|          | 7/6860 [02:54<46:59:46, 24.69s/it]Train (epoch 1):   0%|          | 8/6860 [03:19<46:46:13, 24.57s/it]Train (epoch 1):   0%|          | 9/6860 [03:43<46:29:28, 24.43s/it]Train (epoch 1):   0%|          | 10/6860 [04:07<46:13:05, 24.29s/it]Train (epoch 1):   0%|          | 11/6860 [04:31<46:05:02, 24.22s/it]Train (epoch 1):   0%|          | 12/6860 [04:55<45:49:30, 24.09s/it]Train (epoch 1):   0%|          | 13/6860 [05:19<45:48:29, 24.08s/it]Train (epoch 1):   0%|          | 14/6860 [05:42<45:40:48, 24.02s/it]Train (epoch 1):   0%|          | 15/6860 [06:06<45:38:45, 24.01s/it]Train (epoch 1):   0%|          | 16/6860 [06:31<45:45:57, 24.07s/it]Train (epoch 1):   0%|          | 17/6860 [06:55<45:46:30, 24.08s/it]Train (epoch 1):   0%|          | 18/6860 [07:19<45:33:24, 23.97s/it]Train (epoch 1):   0%|          | 19/6860 [07:43<45:37:27, 24.01s/it]Train (epoch 1):   0%|          | 20/6860 [08:06<45:33:01, 23.97s/it]Train (epoch 1):   0%|          | 21/6860 [08:30<45:31:12, 23.96s/it]Train (epoch 1):   0%|          | 22/6860 [08:54<45:31:59, 23.97s/it]Train (epoch 1):   0%|          | 23/6860 [09:18<45:26:54, 23.93s/it]Train (epoch 1):   0%|          | 24/6860 [09:42<45:30:19, 23.96s/it]Train (epoch 1):   0%|          | 25/6860 [10:06<45:30:38, 23.97s/it]Train (epoch 1):   0%|          | 26/6860 [10:30<45:25:11, 23.93s/it]Train (epoch 1):   0%|          | 27/6860 [10:54<45:30:13, 23.97s/it]Train (epoch 1):   0%|          | 28/6860 [11:18<45:26:11, 23.94s/it]Train (epoch 1):   0%|          | 29/6860 [11:42<45:32:11, 24.00s/it]Train (epoch 1):   0%|          | 30/6860 [12:06<45:27:21, 23.96s/it]Train (epoch 1):   0%|          | 31/6860 [12:30<45:31:54, 24.00s/it]Train (epoch 1):   0%|          | 32/6860 [12:54<45:28:12, 23.97s/it]Train (epoch 1):   0%|          | 33/6860 [13:18<45:27:06, 23.97s/it]Train (epoch 1):   0%|          | 34/6860 [13:42<45:22:02, 23.93s/it]Train (epoch 1):   1%|          | 35/6860 [14:06<45:23:38, 23.94s/it]Train (epoch 1):   1%|          | 36/6860 [14:30<45:20:31, 23.92s/it]Train (epoch 1):   1%|          | 37/6860 [14:54<45:29:14, 24.00s/it]Train (epoch 1):   1%|          | 38/6860 [15:18<45:24:23, 23.96s/it]Train (epoch 1):   1%|          | 39/6860 [15:42<45:34:20, 24.05s/it]Train (epoch 1):   1%|          | 40/6860 [16:06<45:34:18, 24.06s/it]Train (epoch 1):   1%|          | 41/6860 [16:30<45:35:21, 24.07s/it]Train (epoch 1):   1%|          | 42/6860 [16:54<45:30:49, 24.03s/it]Train (epoch 1):   1%|          | 43/6860 [17:18<45:27:34, 24.01s/it]Train (epoch 1):   1%|          | 44/6860 [17:42<45:20:28, 23.95s/it]Train (epoch 1):   1%|          | 45/6860 [18:06<45:21:43, 23.96s/it]Train (epoch 1):   1%|          | 46/6860 [18:30<45:15:43, 23.91s/it]Train (epoch 1):   1%|          | 47/6860 [18:54<45:14:54, 23.91s/it]Train (epoch 1):   1%|          | 48/6860 [19:17<45:12:26, 23.89s/it]Train (epoch 1):   1%|          | 49/6860 [19:41<45:06:04, 23.84s/it]Train (epoch 1):   1%|          | 50/6860 [20:05<45:02:51, 23.81s/it]Train (epoch 1):   1%|          | 51/6860 [20:29<44:55:17, 23.75s/it]Train (epoch 1):   1%|          | 52/6860 [20:52<44:58:06, 23.78s/it]Train (epoch 1):   1%|          | 53/6860 [21:16<45:03:32, 23.83s/it]Train (epoch 1):   1%|          | 54/6860 [21:40<45:09:37, 23.89s/it]Train (epoch 1):   1%|          | 55/6860 [22:04<45:13:04, 23.92s/it]Train (epoch 1):   1%|          | 56/6860 [22:28<45:07:51, 23.88s/it]Train (epoch 1):   1%|          | 57/6860 [22:52<45:07:08, 23.88s/it]Train (epoch 1):   1%|          | 58/6860 [23:16<45:11:40, 23.92s/it]Train (epoch 1):   1%|          | 59/6860 [23:40<45:10:35, 23.91s/it]Train (epoch 1):   1%|          | 60/6860 [24:04<45:07:57, 23.89s/it]Train (epoch 1):   1%|          | 61/6860 [24:28<45:06:34, 23.89s/it]Train (epoch 1):   1%|          | 62/6860 [24:51<45:06:23, 23.89s/it]Train (epoch 1):   1%|          | 63/6860 [25:15<45:06:55, 23.90s/it]Train (epoch 1):   1%|          | 64/6860 [25:39<45:03:13, 23.87s/it]Train (epoch 1):   1%|          | 65/6860 [26:03<45:03:54, 23.88s/it]Train (epoch 1):   1%|          | 66/6860 [26:27<45:01:10, 23.85s/it]Train (epoch 1):   1%|          | 67/6860 [26:51<45:02:51, 23.87s/it]Train (epoch 1):   1%|          | 68/6860 [27:15<44:59:24, 23.85s/it]Train (epoch 1):   1%|          | 69/6860 [27:38<44:59:11, 23.85s/it]Train (epoch 1):   1%|          | 70/6860 [28:02<44:58:08, 23.84s/it]Train (epoch 1):   1%|          | 71/6860 [28:26<44:58:45, 23.85s/it]Train (epoch 1):   1%|          | 72/6860 [28:50<45:08:49, 23.94s/it]Train (epoch 1):   1%|          | 73/6860 [29:14<45:02:57, 23.90s/it]Train (epoch 1):   1%|          | 74/6860 [29:38<45:06:43, 23.93s/it]Train (epoch 1):   1%|          | 75/6860 [30:02<45:08:39, 23.95s/it]Train (epoch 1):   1%|          | 76/6860 [30:26<45:11:20, 23.98s/it]Train (epoch 1):   1%|          | 77/6860 [30:50<45:08:05, 23.95s/it]Train (epoch 1):   1%|          | 78/6860 [31:14<45:05:03, 23.93s/it]Train (epoch 1):   1%|          | 79/6860 [31:38<45:00:09, 23.89s/it]Train (epoch 1):   1%|          | 80/6860 [32:02<44:59:33, 23.89s/it]Train (epoch 1):   1%|          | 81/6860 [32:25<44:50:01, 23.81s/it]Train (epoch 1):   1%|          | 82/6860 [32:49<44:57:07, 23.88s/it]Train (epoch 1):   1%|          | 83/6860 [33:13<44:53:55, 23.85s/it]Train (epoch 1):   1%|          | 84/6860 [33:37<44:54:27, 23.86s/it]Train (epoch 1):   1%|          | 85/6860 [34:01<44:59:00, 23.90s/it]Train (epoch 1):   1%|▏         | 86/6860 [34:25<44:55:40, 23.88s/it]Train (epoch 1):   1%|▏         | 87/6860 [34:49<44:51:45, 23.85s/it]Train (epoch 1):   1%|▏         | 88/6860 [35:12<44:50:52, 23.84s/it]Train (epoch 1):   1%|▏         | 89/6860 [35:36<44:48:32, 23.82s/it]Train (epoch 1):   1%|▏         | 90/6860 [36:00<44:48:59, 23.83s/it]Train (epoch 1):   1%|▏         | 91/6860 [36:24<44:48:08, 23.83s/it]Train (epoch 1):   1%|▏         | 92/6860 [36:48<44:49:48, 23.85s/it]Train (epoch 1):   1%|▏         | 93/6860 [37:11<44:45:00, 23.81s/it]Train (epoch 1):   1%|▏         | 94/6860 [37:35<44:45:11, 23.81s/it]Train (epoch 1):   1%|▏         | 95/6860 [37:59<44:42:44, 23.79s/it]Train (epoch 1):   1%|▏         | 96/6860 [38:23<44:41:42, 23.79s/it]Train (epoch 1):   1%|▏         | 97/6860 [38:47<44:40:56, 23.78s/it]Train (epoch 1):   1%|▏         | 98/6860 [39:10<44:38:08, 23.76s/it]Train (epoch 1):   1%|▏         | 99/6860 [39:34<44:37:04, 23.76s/it]Train (epoch 1):   1%|▏         | 100/6860 [39:58<44:41:15, 23.80s/it]Train (epoch 1):   1%|▏         | 101/6860 [40:22<44:35:49, 23.75s/it]Train (epoch 1):   1%|▏         | 102/6860 [40:45<44:39:55, 23.79s/it]Train (epoch 1):   2%|▏         | 103/6860 [41:09<44:36:18, 23.76s/it]Train (epoch 1):   2%|▏         | 104/6860 [41:33<44:45:50, 23.85s/it]Train (epoch 1):   2%|▏         | 105/6860 [41:57<44:47:03, 23.87s/it]Train (epoch 1):   2%|▏         | 106/6860 [42:21<44:50:09, 23.90s/it]Train (epoch 1):   2%|▏         | 107/6860 [42:45<44:49:43, 23.90s/it]Train (epoch 1):   2%|▏         | 108/6860 [43:09<44:49:23, 23.90s/it]Train (epoch 1):   2%|▏         | 109/6860 [43:33<44:52:40, 23.93s/it]Train (epoch 1):   2%|▏         | 110/6860 [43:57<44:52:49, 23.94s/it]Train (epoch 1):   2%|▏         | 111/6860 [44:21<44:51:14, 23.93s/it]Train (epoch 1):   2%|▏         | 112/6860 [44:45<45:00:50, 24.01s/it]Train (epoch 1):   2%|▏         | 113/6860 [45:09<44:54:21, 23.96s/it]Train (epoch 1):   2%|▏         | 114/6860 [45:33<44:59:59, 24.01s/it]Train (epoch 1):   2%|▏         | 115/6860 [45:57<45:13:53, 24.14s/it]Train (epoch 1):   2%|▏         | 116/6860 [46:21<45:06:39, 24.08s/it]Train (epoch 1):   2%|▏         | 117/6860 [46:45<45:00:52, 24.03s/it]Train (epoch 1):   2%|▏         | 118/6860 [47:09<44:53:05, 23.97s/it]Train (epoch 1):   2%|▏         | 119/6860 [47:33<44:49:41, 23.94s/it]Train (epoch 1):   2%|▏         | 120/6860 [47:57<44:47:43, 23.93s/it]Train (epoch 1):   2%|▏         | 121/6860 [48:21<44:43:20, 23.89s/it]Train (epoch 1):   2%|▏         | 122/6860 [48:44<44:40:22, 23.87s/it]Train (epoch 1):   2%|▏         | 123/6860 [49:08<44:36:32, 23.84s/it]Train (epoch 1):   2%|▏         | 124/6860 [49:32<44:39:06, 23.86s/it]Train (epoch 1):   2%|▏         | 125/6860 [49:56<44:45:44, 23.93s/it]Train (epoch 1):   2%|▏         | 126/6860 [50:20<44:53:29, 24.00s/it]Train (epoch 1):   2%|▏         | 127/6860 [50:44<44:54:07, 24.01s/it]Train (epoch 1):   2%|▏         | 128/6860 [51:08<44:42:06, 23.90s/it]Train (epoch 1):   2%|▏         | 129/6860 [51:32<44:40:37, 23.89s/it]Train (epoch 1):   2%|▏         | 130/6860 [51:56<44:36:03, 23.86s/it]Train (epoch 1):   2%|▏         | 131/6860 [52:19<44:30:27, 23.81s/it]Train (epoch 1):   2%|▏         | 132/6860 [52:43<44:25:32, 23.77s/it]Train (epoch 1):   2%|▏         | 133/6860 [53:07<44:28:56, 23.81s/it]Train (epoch 1):   2%|▏         | 134/6860 [53:31<44:34:58, 23.86s/it]Train (epoch 1):   2%|▏         | 135/6860 [53:55<44:32:12, 23.84s/it]Train (epoch 1):   2%|▏         | 136/6860 [54:19<44:32:57, 23.85s/it]Train (epoch 1):   2%|▏         | 137/6860 [54:42<44:32:47, 23.85s/it]Train (epoch 1):   2%|▏         | 138/6860 [55:06<44:35:10, 23.88s/it]Train (epoch 1):   2%|▏         | 139/6860 [55:30<44:27:45, 23.82s/it]Train (epoch 1):   2%|▏         | 140/6860 [55:54<44:33:36, 23.87s/it]Train (epoch 1):   2%|▏         | 141/6860 [56:18<44:43:09, 23.96s/it]Train (epoch 1):   2%|▏         | 142/6860 [56:42<44:42:24, 23.96s/it]Train (epoch 1):   2%|▏         | 143/6860 [57:06<44:39:14, 23.93s/it]Train (epoch 1):   2%|▏         | 144/6860 [57:30<44:38:43, 23.93s/it]slurmstepd: error: *** JOB 1011236 ON gnode021 CANCELLED AT 2023-11-02T15:42:35 DUE TO TIME LIMIT ***
